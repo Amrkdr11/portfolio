@@ -44,6 +44,8 @@ export const Projects = () => {
           className="project-card"
           variants={fadeInUp}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
+          onClick={() => window.open("https://blckcap101.itch.io/astroventure", "_blank")}
+          style={{ cursor: "pointer" }}
         >
           <motion.div
             className="project-image"
@@ -51,15 +53,15 @@ export const Projects = () => {
             whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
           />
 
-          <h3> AI Saas Platform</h3>
+          <h3>Astroventure</h3>
           <p>
-            A modern Saas platform built with Next JS and OpenAI intergration,
-            featureing real-time AI-Powered content generation and analytics
+            Astroventure: Solar System Quest is a mobile game that uses
+            interactive learning to boost engagement and understanding of the
+            solar system.
           </p>
           <div className="project-tech">
-            <span>Next.js</span>
-            <span>Open Ai</span>
-            <span>Tailwind CSS</span>
+            <span>FYP</span>
+            <span>Godot</span>
           </div>
         </motion.div>
 
